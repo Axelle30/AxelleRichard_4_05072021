@@ -1053,3 +1053,12 @@ strong {
     font-style: italic;
     font-weight: normal;
 }
+.are-here a {
+    font-weight: bolder;
+    color: #F3976C;
+    border-bottom: 2px solid;
+    border-color: #F3976C;
+}
+.logo-more {
+    padding-left: 22.5%;
+}
