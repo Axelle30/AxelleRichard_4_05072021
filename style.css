@@ -1040,3 +1040,16 @@ h4 {
         text-align: center;
     }
 }
+/*Ajout Optimisation du site*/
+.img-replacement {
+    font-size: 23px;
+    font-family: "Open Sans";
+}
+.img-replacement-alt {
+    font-size: 15px;
+}
+strong {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
