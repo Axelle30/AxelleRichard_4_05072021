@@ -1033,6 +1033,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .logo-more {
+        padding-left: 0%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1061,4 +1064,10 @@ strong {
 }
 .logo-more {
     padding-left: 22.5%;
+   
+}
+.img-resize {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
