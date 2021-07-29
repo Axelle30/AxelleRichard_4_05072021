@@ -519,8 +519,17 @@ button {
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
+    
 }
 
+@keyframes scroll-scale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
 .scrollToTop span {
     margin-top: 6px;
 }
@@ -773,13 +782,15 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+.re-color-dark {
+    background-color: #934E2D!important;
+}
 .tc-white {
-    color: #F3976C!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BC6035;
     color: #FFFFFF!important;
 }
 
@@ -848,13 +859,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,21 +883,13 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+  
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+  
 }
 
 @media (max-width: 767px) {
@@ -1044,6 +1047,50 @@ h4 {
     }
 }
 /*Ajout Optimisation du site*/
+
+input:focus {
+    background-color:#F3976C;
+}
+textarea:focus {
+    background-color:#F3976C ;
+}
+button:focus {
+    background-color: green;
+}
+
+li a:focus {
+    border: black 2px solid;
+}
+.navbar-header a:focus{
+    border: black 2px solid;
+}
+.social:focus {
+    border: black 1px solid;
+    padding: 12px 2px 2px 2px
+}
+.img-focus:focus {
+    border: black 2px solid;
+}
+.link-focus:focus {
+   color: #F3976C;
+   font-size: 17px;
+}
+h3 > a:focus {
+    color: red;
+    
+}
+.btn:focus {
+    background-color: green;
+}
+.bold-link:focus {
+    font-size: 30px;
+}
+h3 a{
+    font-weight: 700;
+}
+.mg-md a:focus{
+    border-bottom: black 2px red;
+}
 .img-replacement {
     font-size: 23px;
     font-family: "Open Sans";
@@ -1070,4 +1117,10 @@ strong {
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+.re-color-link a {
+    color:#F9CBB6!important;
+}
+.re-color-link {
+    color: #FFFF!important;
 }
