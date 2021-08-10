@@ -716,6 +716,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    
 }
 
 h3 {
@@ -780,17 +781,17 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #7D471C;
 }
 .re-color-dark {
     background-color: #934E2D!important;
 }
 .tc-white {
-    color: #000000!important;
+    color: #FFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #BC6035;
+    background: #934E2D;
     color: #FFFFFF!important;
 }
 
@@ -1119,7 +1120,7 @@ strong {
     width: 100%;
 }
 .re-color-link a {
-    color:#F9CBB6!important;
+    color:white!important;
 }
 .re-color-link {
     color: #FFFF!important;
